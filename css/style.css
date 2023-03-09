@@ -418,3 +418,133 @@ input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
+
+figure {
+    margin-bottom: 0;
+}
+
+/* PROFILE-PAGE */
+.profile-description {
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.profile-description .leftdetail {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #333;
+    width: 25%;
+}
+
+.profile-description .rightdetail {
+    width: 75%;
+}
+
+.profile-description .leftdetail .profile {
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-inline: auto;
+}
+
+.profile-description .profile img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.profile-description .rightdetail .namedesignation {
+    background: var(--primary);
+    padding: 2rem;
+}
+
+.profile-description .rightdetail .namedesignation .name {
+    color: var(--light);
+}
+
+.profile-description .rightdetail .namedesignation .designation {
+    color: var(--light);
+}
+
+.profile-description .rightdetail .descriptions {
+    padding: 2rem;
+}
+
+.descriptions .about {}
+
+.descriptions .about-header {}
+
+.descriptions .about-header .title {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    color: var(--dark);
+}
+
+.descriptions .about-body {}
+
+.descriptions .about-body .text {
+    font-size: .8125rem;
+    color: #333;
+}
+
+.table {
+    background: white;
+    border-bottom: 0;
+    vertical-align: middle;
+}
+
+.table thead tr {
+    border-color: #ddd;
+}
+
+.table thead tr th {
+    border-color: #ddd;
+    font-size: .75rem;
+}
+
+.table tbody tr {
+    border-color: #ddd;
+}
+
+.table tbody tr td {
+    border-color: #ddd;
+    font-size: .75rem;
+}
+
+.viewlink {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.125rem;
+    margin-inline: auto;
+    border-radius: .25rem;
+}
+
+.tooltip{
+    font-size: .75rem;
+    font-weight: 600;
+}
+
+.tableuserphoto {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.tableuserphoto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* TIMELINE */
