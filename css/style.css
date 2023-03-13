@@ -547,4 +547,14 @@ figure {
     object-fit: cover;
 }
 
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.dt-buttons,
+.dataTables_filter {
+    margin-bottom: 1.25rem;
+}
+
 /* TIMELINE */

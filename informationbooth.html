@@ -25,6 +25,7 @@
     <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
 
     <!-- DATA-TABLE CSS -->
+    <link rel="stylesheet" href="css/datatable/buttons.dataTables.min.css">
     <link rel="stylesheet" href="css/datatable/datatable.css">
 
     <!-- Customized Bootstrap Stylesheet -->
@@ -227,20 +228,21 @@
               <h5 class="title text-center text-dark">Approved Manpower Personal Information</h5>
             </div>
 
-            <table class="table table-striped table-bordered text-center table-responsive w-100">
-              <thead>
+            <!-- INFORMATIONBOOTH-TABLE -->
+            <table id="tableinformationbooth" class="table table-striped table-bordered text-center table-responsive w-100">
+              <thead class="bg-primary text-white text-center">
                 <tr>
-                  <th class="fw-bold text-dark">SL</th>
-                  <th class="fw-bold text-dark">ID</th>
-                  <th class="fw-bold text-dark">Name</th>
-                  <th class="fw-bold text-dark">Father Name</th>
-                  <th class="fw-bold text-dark">Address</th>
-                  <th class="fw-bold text-dark">Mobile</th>
-                  <th class="fw-bold text-dark">NID</th>
-                  <th class="fw-bold text-dark">DOB</th>
-                  <th class="fw-bold text-dark">Nationality</th>
-                  <th class="fw-bold text-dark">Agency</th>
-                  <th class="fw-bold text-dark">Photo</th>
+                  <th class="fw-bold">SL</th>
+                  <th class="fw-bold">ID</th>
+                  <th class="fw-bold">Name</th>
+                  <th class="fw-bold">Father Name</th>
+                  <th class="fw-bold">Address</th>
+                  <th class="fw-bold">Mobile</th>
+                  <th class="fw-bold">NID</th>
+                  <th class="fw-bold">DOB</th>
+                  <th class="fw-bold">Nationality</th>
+                  <th class="fw-bold">Agency</th>
+                  <th class="fw-bold">Photo</th>
                 </tr>
               </thead>  
     
@@ -294,6 +296,18 @@
   <!-- JavaScript Libraries -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- DATA-TABLE -->
+  <script src="js/datatable/jquery.dataTables.min.js"></script>
+  <script src="js/datatable/dataTables.buttons.min.js"></script>
+  <script src="js/datatable/jszip.min.js"></script>
+  <script src="js/datatable/pdfmake.min.js"></script>
+  <script src="js/datatable/vfs_fonts.js"></script>
+  <script src="js/datatable/buttons.print.min.js"></script>
+  <script src="js/datatable/buttons.html5.min.js"></script>
+
+  <!-- INFORMATIONBOOTH-TABLE -->
+  <script src="js/tables/inormationbooth.js"></script>
 
   <!-- Template Javascript -->
   <script src="js/main.js"></script>
